@@ -13,16 +13,19 @@ const getImage = createResource(src => {
 })
 
 const Img = withCache(props => {
-  const src = getImage(props.cache, props.src)
+  const src = getImage.read(props.cache, props.src)
   return <img src={src} alt="" height={props.height} width={props.width} />
 })
 
 export function SuspenseImageLoader(props) {
+  const { ms, fallback, src, ...rest } = props
   return (
     <React.unstable_AsyncMode>
-      <Timeout ms={props.ms} fallback={props.fallback}>
-        <Img src={props.src} height={props.height} width={props.width} />
-      </Timeout>
+      <React.unstable_AsyncMode>
+        <Timeout ms={props.ms} fallback={props.fallback}>
+          <Img src={props.src} {...rest} />
+        </Timeout>
+      </React.unstable_AsyncMode>
     </React.unstable_AsyncMode>
   )
 }

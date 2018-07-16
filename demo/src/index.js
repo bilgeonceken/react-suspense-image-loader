@@ -20,19 +20,10 @@ class Demo extends Component {
     return (
       <div style={styles}>
         <SuspenseImageLoader
-          src="https://picsum.photos/2001"
+          src="https://picsum.photos/4020"
           height={400}
           width={400}
-          ms={500}
-          fallback={
-            <img alt="" height={400} width={400} className="out" src={plc} />
-          }
-        />
-        <SuspenseImageLoader
-          src="https://picsum.photos/2001"
-          height={400}
-          width={400}
-          ms={500}
+          ms={1000}
           fallback={
             <Spin size="large" style={{ width: "400px" }}>
               <div
@@ -42,6 +33,15 @@ class Demo extends Component {
                 }}
               />
             </Spin>
+          }
+        />
+        <SuspenseImageLoader
+          src="https://picsum.photos/200"
+          height={400}
+          width={400}
+          ms={1000}
+          fallback={
+            <img alt="" height={400} width={400} className="out" src={plc} />
           }
         />
       </div>

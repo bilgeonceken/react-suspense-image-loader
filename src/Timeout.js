@@ -9,7 +9,7 @@ export function Timeout({ ms, fallback, children }) {
           <span hidden={didTimeout}>
             <CSSTransition
               in={!didTimeout}
-              timeout={ms}
+              timeout={400}
               classNames="fade"
               unmountOnExit
             >
