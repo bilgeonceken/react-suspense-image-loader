@@ -21,11 +21,11 @@ export function SuspenseImageLoader(props) {
   const { ms, fallback, src, ...rest } = props
   return (
     <React.unstable_AsyncMode>
-      <React.unstable_AsyncMode>
-        <Timeout ms={props.ms} fallback={props.fallback}>
+      <Timeout ms={props.ms} fallback={props.fallback}>
+        <React.unstable_AsyncMode>
           <Img src={props.src} {...rest} />
-        </Timeout>
-      </React.unstable_AsyncMode>
+        </React.unstable_AsyncMode>
+      </Timeout>
     </React.unstable_AsyncMode>
   )
 }
