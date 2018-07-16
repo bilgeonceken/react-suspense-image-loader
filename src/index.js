@@ -17,7 +17,7 @@ const Img = withCache(props => {
   return <img src={src} alt="" height={props.height} width={props.width} />
 })
 
-export function SuspendedImage(props) {
+export function SuspenseImageLoader(props) {
   return (
     <React.unstable_AsyncMode>
       <Timeout ms={props.ms} fallback={props.fallback}>
@@ -26,4 +26,4 @@ export function SuspendedImage(props) {
     </React.unstable_AsyncMode>
   )
 }
-export default SuspendedImage
+export default SuspenseImageLoader

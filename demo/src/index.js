@@ -13,13 +13,13 @@ const styles = {
   alignItems: "center",
   justifyContent: "space-between"
 }
-import SuspendedImage from "../../src"
+import SuspenseImageLoader from "../../src"
 
 class Demo extends Component {
   render() {
     return (
       <div style={styles}>
-        <SuspendedImage
+        <SuspenseImageLoader
           src="https://picsum.photos/2001"
           height={400}
           width={400}
@@ -28,7 +28,7 @@ class Demo extends Component {
             <img alt="" height={400} width={400} className="out" src={plc} />
           }
         />
-        <SuspendedImage
+        <SuspenseImageLoader
           src="https://picsum.photos/2001"
           height={400}
           width={400}
