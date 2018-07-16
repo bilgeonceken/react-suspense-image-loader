@@ -41,7 +41,13 @@ class Demo extends Component {
           width={400}
           ms={2000}
           fallback={
-            <img alt="" height={400} width={400} className="out" src={plc} />
+            <img
+              alt=""
+              style={{ filter: "blur(50px)" }}
+              height={400}
+              width={400}
+              src={plc}
+            />
           }
         />
       </div>
