@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import React, { Fragment } from "react"
+import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 export function Timeout({ ms, fallback, children }) {
   return (
@@ -9,7 +9,7 @@ export function Timeout({ ms, fallback, children }) {
           <span hidden={didTimeout}>
             <CSSTransition
               in={!didTimeout}
-              timeout={500}
+              timeout={ms}
               classNames="fade"
               unmountOnExit
             >
@@ -20,7 +20,7 @@ export function Timeout({ ms, fallback, children }) {
         </Fragment>
       )}
     </React.Timeout>
-  );
+  )
 }
 
 /*

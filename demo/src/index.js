@@ -23,7 +23,7 @@ class Demo extends Component {
           src="https://picsum.photos/2001"
           height={400}
           width={400}
-          ms={0}
+          ms={500}
           fallback={
             <img alt="" height={400} width={400} className="out" src={plc} />
           }
