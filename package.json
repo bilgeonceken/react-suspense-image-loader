@@ -31,7 +31,9 @@
     "antd": "3.6.6",
     "nwb": "0.21.x",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "react-transition-group": "2.4.0",
+    "simple-cache-provider": "0.3.0-alpha.0911da3"
   },
   "author": "",
   "homepage": "",
