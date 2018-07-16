@@ -1,4 +1,4 @@
-# react-suspense-image-loader
+react-suspense-image-loader
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
