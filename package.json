@@ -38,7 +38,10 @@
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bilgeonceken/react-suspense-image-loader"
+  },
   "keywords": [
     "react-component",
     "async",
