@@ -20,30 +20,14 @@ class Demo extends Component {
     return (
       <div style={styles}>
         <SuspenseImageLoader
-          src="https://picsum.photos/5000"
-          height={400}
-          width={400}
-          ms={2000}
-          fallback={
-            <Spin size="large" style={{ width: "400px" }}>
-              <div
-                style={{
-                  height: "400px",
-                  width: "400px"
-                }}
-              />
-            </Spin>
-          }
-        />
-        <SuspenseImageLoader
-          src="https://picsum.photos/300"
+          src="https://picsum.photos/201"
           height={400}
           width={400}
           ms={2000}
           fallback={
             <img
               alt=""
-              style={{ filter: "blur(50px)" }}
+              style={{ filter: "blur(30px)" }}
               height={400}
               width={400}
               src={plc}
