@@ -41,18 +41,18 @@ npm start
 <img src="https://github.com/bilgeonceken/ReactSuspenseImageLoader/blob/master/code-spinner.png" width="65%">
 </p>  
   
-<p align='left'> 
-<img src="https://media.giphy.com/media/L15dTRr9F4nL4KhOuN/200w_d.gif" width="200">
-</p>  
-  
+ <p align='left'> 
+<img src="https://media.giphy.com/media/TgFi6GcyslRnUEe3RB/giphy.gif" width="200">
+</p>
+
 <p align='left'> 
 <img src="https://github.com/bilgeonceken/ReactSuspenseImageLoader/blob/master/code-placeholder.png" width="60%">
 </p>
 
 <p align='left'> 
-<img src="https://media.giphy.com/media/TgFi6GcyslRnUEe3RB/giphy.gif" width="200">
-</p>
-
+<img src="https://media.giphy.com/media/L15dTRr9F4nL4KhOuN/200w_d.gif" width="200">
+</p>  
+  
 
 ### Properties
 
