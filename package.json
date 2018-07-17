@@ -1,6 +1,6 @@
 {
   "name": "react-suspense-image-loader",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "react-suspense-image-loader React component",
   "main": "lib/index.js",
   "module": "es/index.js",
