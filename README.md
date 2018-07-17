@@ -8,6 +8,9 @@ For animations [react-transition-group](https://github.com/reactjs/react-transit
 [npm-badge]: https://img.shields.io/npm/v/react-suspense-image-loader.png?style=flat-square
 [npm]: https://www.npmjs.org/package/react-suspense-image-loader
 
+[![Edit test-Imported-SuspendedImage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/9z74q1lm14)
+
+
 ## Install
 
 ```bash
