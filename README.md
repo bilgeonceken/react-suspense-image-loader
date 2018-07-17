@@ -53,7 +53,7 @@ npm start
 ```
 
 <p align='left'>
-<img src="https://raw.githubusercontent.com/bilgeonceken/ReactSuspenseImageLoader/blob/master/code-spinner.png" width="65%">
+<img src="https://raw.githubusercontent.com/bilgeonceken/ReactSuspenseImageLoader/master/code-spinner.png" width="65%">
 </p>  
 
  <p align='left'>
@@ -61,7 +61,7 @@ npm start
 </p>
 
 <p align='left'>
-<img src="https://raw.githubusercontent.com/bilgeonceken/ReactSuspenseImageLoader/blob/master/code-placeholder.png" width="60%">
+<img src="https://raw.githubusercontent.com/bilgeonceken/ReactSuspenseImageLoader/master/code-placeholder.png" width="60%">
 </p>
 
 <p align='left'>
