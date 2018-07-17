@@ -1,19 +1,14 @@
 # react-suspense-image-loader
 
-[![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+
 
 This component loads your images asynchronously using react suspense.
+For animations [react-transition-group](https://github.com/reactjs/react-transition-group) is used and can be customized easily.
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+[npm-badge]: https://img.shields.io/npm/v/react-suspense-image-loader.png?style=flat-square
+[npm]: https://www.npmjs.org/package/react-suspense-image-loader
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
-
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
 
 
 ## Install
@@ -22,13 +17,36 @@ This component loads your images asynchronously using react suspense.
 npm i react-suspense-image-loader
 ```
 
+## Usage
 
+```javascript
+import React from "react";
+import ReactDOM from "react-dom";
+import Spinner from "./Spinner";
+import SuspenseImageLoader from "react-suspense-image-loader";
+
+function App() {
+  return (
+    <div>
+      <SuspenseImageLoader
+        src="https://picsum.photos/4101"
+        height={400}
+        width={400}
+        ms={800}
+        fallback={<Spinner />} // any spinner you like
+      />
+    </div>
+  );
+}
+
+ReactDOM.render(<App history={history} />, document.getElementById('root'))
+```
 
 ## Examples
 
 You'll most likely define a spinner or a low resolution placeholder image while waiting for actual image to load. So I've prepared two examples for you to play with.
 
-Bot are included in the demo
+Bot are included in the demo:
 
 ```bash
 git clone https://github.com/bilgeonceken/ReactSuspenseImageLoader
