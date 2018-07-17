@@ -43,7 +43,7 @@ ReactDOM.render(<App history={history} />, document.getElementById("root"))
 
 You'll most likely define a spinner or a low resolution placeholder image while waiting for actual image to load. So I've prepared two examples for you to play with.
 
-Bot are included in the demo:
+Both are included in the demo:
 
 ```bash
 git clone https://github.com/bilgeonceken/ReactSuspenseImageLoader
@@ -67,7 +67,6 @@ npm start
 <p align='left'>
 <img src="https://media.giphy.com/media/L15dTRr9F4nL4KhOuN/200w_d.gif" width="200">
 </p>  
-
 
 ### Properties
 
