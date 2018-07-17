@@ -40,6 +40,10 @@
   "license": "MIT",
   "repository": "",
   "keywords": [
-    "react-component"
+    "react-component",
+    "async",
+    "image",
+    "loader",
+    "suspense"
   ]
 }
