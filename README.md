@@ -39,7 +39,7 @@ function App() {
   )
 }
 
-ReactDOM.render(<App history={history} />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
 ```
 
 ## Examples
